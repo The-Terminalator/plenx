@@ -1,0 +1,16 @@
+#secure-open{white-space:nowrap;font-size:10px}
+#secure-open .dot{margin-right:4px}
+#secure-dialog{width:min(530px,calc(100% - 28px))}
+#secure-dialog p{margin:12px 0}
+#secure-dialog label{margin-top:12px}
+#secure-dialog input{margin-top:5px}
+#secure-dialog input::placeholder{color:var(--subtle)}
+#secure-dialog .secure-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#secure-dialog .secure-remember{display:flex;gap:8px;align-items:center;letter-spacing:0;font-size:12px}
+#secure-dialog .secure-remember input{width:auto;margin:0;accent-color:var(--strong)}
+#secure-dialog .secure-hint{color:var(--muted);font-size:11px}
+#secure-dialog .secure-status{font-size:12px;color:var(--ink);line-height:1.5}
+#secure-dialog .secure-status:empty{display:none}
+#secure-dialog .dialog-actions{align-items:center;margin-top:17px}
+#secure-dialog .dialog-actions button{font-size:11px;min-height:37px}
+@media(max-width:450px){#secure-open{font-size:9px;padding:0 6px}#secure-dialog .secure-row{gap:8px}#secure-dialog input{padding:8px}}
